@@ -1,3 +1,6 @@
+import nltk
+nltk.download('punkt')
+
 import requests
 from transformers import pipeline
 from newspaper import Article
