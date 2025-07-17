@@ -1,0 +1,6 @@
+Flask
+transformers
+torch
+newspaper3k
+apscheduler
+requests

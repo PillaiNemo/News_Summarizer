@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Top 10 World News</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <header>
+        <h1>🌍 Top 10 World News</h1>
+        <p>Summarized in ~100 words • Updates every 4 hours</p>
+    </header>
+    <main class="news-container">
+        {% for article in articles %}
+        <div class="news-card">
+            <img src="{{ article.image }}" alt="news image" onerror="this.src='/static/fallback.jpg'">
+            <div class="news-content">
+                <h3>{{ article.title }}</h3>
+                <p>{{ article.summary }}</p>
+                <a href="{{ article.url }}" target="_blank">Read More</a>
+            </div>
+        </div>
+        {% endfor %}
+    </main>
+</body>
+</html>
