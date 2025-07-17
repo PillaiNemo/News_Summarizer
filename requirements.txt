@@ -1,6 +1,5 @@
 Flask==3.0.3
 transformers==4.31.0
-tokenizers==0.13.3
 torch==2.7.1
 requests==2.31.0
 beautifulsoup4==4.12.3
