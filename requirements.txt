@@ -1,6 +1,6 @@
-Flask
-transformers
-torch
-newspaper3k
-apscheduler
-requests
+Flask==3.0.3
+transformers==4.41.1
+torch>=2.0
+requests==2.31.0
+beautifulsoup4==4.12.3
+gunicorn==21.2.0
