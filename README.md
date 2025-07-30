@@ -4,6 +4,14 @@ A lightweight AI-powered web app that fetches and summarizes the top global news
 
 
 
+**🚩 Important Notes**
+
+This project can only be run on your local machine. Due to the large space requirements of its models and dependencies, deploying it to third-party platforms is not recommended.
+
+The application is still a work in progress. While you can view news summaries, some aspects of the summarization need further improvement, and several website features are yet to be added.
+
+During local use, you might occasionally encounter a summarization error. If this happens, please ignore it and wait for the page to finish loading.
+
 
 **🚀 Features**
 
